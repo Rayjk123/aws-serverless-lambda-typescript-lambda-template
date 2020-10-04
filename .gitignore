@@ -1,6 +1,14 @@
+# Jet Brains
 .idea
+
+# Serverless output
 .serverless
 
+# Node Modules
 node_modules
 
-**/*.js
+# Compiled Javascript files
+dist
+
+# Mac Finder
+.DS_Store

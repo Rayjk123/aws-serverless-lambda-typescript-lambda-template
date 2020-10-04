@@ -6,5 +6,11 @@ provider:
 
 functions:
   helloWorld:
-    handler: index.handler
+    handler: dist/index.handler
     name: serverless-hello-world
+    description: Hello World Function
+    memorySize: 512
+    package:
+      include:
+        - dist/**
+
